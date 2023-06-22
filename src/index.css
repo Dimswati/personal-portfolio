@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-rubik
+  }
+
+  section > div {
+    @apply py-[100px] px-3
+  }
+
+  .primary-btn {
+    @apply bg-fuchsia-200 text-neutral-900 font-medium py-4 px-8 rounded-xl border-2 border-fuchsia-200 hover:bg-fuchsia-800 hover:text-fuchsia-50 transition-all duration-300
+  }
+
+  .service-card {
+    @apply relative p-9 bg-fuchsia-100 border-2 border-fuchsia-200 rounded-xl before:absolute before:inset-0 before:rounded-xl before:bg-fuchsia-300/50 before:-z-10 before:hover:rotate-[4deg] before:origin-[75%_70%] before:transition-all before:duration-300
+  }
+
+  /* .service-icon {
+    @apply relative p-4 w-fit bg-fuchsia-300 rounded-xl text-neutral-800 mb-9 before:absolute before:inset-0 before:rounded-xl before:bg-fuchsia-500 before:-z-10 before:rotate-[8deg] before:hover:rotate-0 before:origin-bottom-right before:transition-all before:duration-300
+  } */
+}
