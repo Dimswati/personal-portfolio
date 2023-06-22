@@ -78,11 +78,11 @@ export default function Home() {
         </aside>
         <main className="lg:pl-[100px]">
             <section id='home' className='bg-fuchsia-100/20'>
-                <div className="container flex justify-center items-center gap-16">
+                <div className="container flex mb:flex-row flex-col-reverse justify-center items-center gap-16">
                     <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/home-banner.jpg" className="aspect-square w-96 h-96 rounded-3xl" alt="" />
-                    <div>
+                    <div className="md:text-left text-center">
                         <h5 className="text-xl mb-4 text-neutral-800 font-medium">👋 Hi, I`m</h5>
-                        <h1 className="text-6xl mb-4 font-bold text-neutral-800 antialiased">Paul <img className="inline w-16 h-16 object-cover rounded-full" src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/mask.jpg" alt="pauls profile" /> Mbatia</h1>
+                        <h1 className="mb:text-6xl text-4xl mb-4 font-bold text-neutral-800 antialiased">Paul <img className="inline w-16 h-16 object-cover rounded-full" src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/mask.jpg" alt="pauls profile" /> Mbatia</h1>
                         <h2 className="text-2xl text-neutral-800 font-medium mb-6">I`m a <span ref={typedRef}></span></h2>
                         <p className="text-base text-neutral-600 font-normal mb-8">We work with professionals and leaders who want to build careers that fulfil them intellectually, financially</p>
                         <button className="primary-btn">Download cv <BsDownload className="inline"/></button>
@@ -99,11 +99,11 @@ export default function Home() {
                             <p className="text-base text-neutral-700 mb-6">Born in 2000, AB type living in USA. We provide on-screen design for websites and apps, as well as front-end implementation. We will continue to pursue a wide range of expressions and better code by pursuing our “likes”.</p>
                             <div className="flex gap-6 items-center">
                                 <div className="flex gap-3">
-                                    <h1 className="text-5xl font-semibold text-neutral-900">5K</h1>
+                                    <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">5K</h1>
                                     <p>Projects <br/> Completed</p>
                                 </div>
                                 <div className="flex gap-3">
-                                    <h1 className="text-5xl font-semibold text-neutral-900">3K</h1>
+                                    <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">3K</h1>
                                     <p>Satisfied <br/> Clients</p>
                                 </div>
                             </div>
@@ -143,9 +143,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="lg:basis-7/12 basis-full sticky top-0">
-                        <div className="flex gap-6 pt-6 mb-12">
-                            <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/about-banner.jpg" className="h-80 min-w-0 basis-7/12 rounded-2xl object-cover" alt=""/>
-                            <div className="basis-5/12 flex flex-col gap-4 w-full ">
+                        <div className="flex gap-6 pt-6 mb-12 sm:flex-row flex-col">
+                            <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/about-banner.jpg" className="sm:basis-7/12 basis-full h-80 min-w-0 rounded-2xl object-cover" alt=""/>
+                            <div className="sm:basis-5/12 basis-full flex flex-col gap-4 w-full">
                                 <div className="flex items-center gap-5 bg-white py-3 pl-4 border-2 border-fuchsia-200 rounded-xl w-full hover:bg-fuchsia-200 transition-all duration-300 hover:cursor-pointer">
                                     <div className="bg-fuchsia-100 p-2.5 rounded-3xl ">
                                         <FaSkype size={20}/>
@@ -411,8 +411,8 @@ export default function Home() {
                     <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">testimonials</h1>
                     <Swiper
                         modules={[A11y]}
-                        spaceBetween={50}
-                        slidesPerView={3}
+                        // slidesPerView={1}
+                        spaceBetween={10}
                         autoplay={true}
                         loop={true}
                         breakpoints={{
@@ -421,7 +421,7 @@ export default function Home() {
                               spaceBetween: 20,
                             },
                             768: {
-                              slidesPerView: 3,
+                              slidesPerView: 2,
                               spaceBetween: 40,
                             },
                             1024: {
@@ -477,13 +477,35 @@ export default function Home() {
                                 </div>
                             </div>
                         </SwiperSlide>
+                        <SwiperSlide>
+                        <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
+                                <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
+                                <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                <div className="text-base">
+                                    <h5 className="font-medium">Jane Kamau</h5>
+                                    <p className=" text-neutral-600">CEO at scaleAi</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                        <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
+                                <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
+                                <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                <div className="text-base">
+                                    <h5 className="font-medium">Jane Kamau</h5>
+                                    <p className=" text-neutral-600">CEO at scaleAi</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
                     </Swiper>
                 </div>
             </section>
             <section id="contact" className="bg-fuchsia-100">
                 <div className="container">
-                    <div className="flex gap-12">
-                        <div className="basis-5/12">
+                    <div className="flex lg:flex-row flex-col gap-12">
+                        <div className="lg:basis-5/12 basis-full">
                             <h2 className="text-2xl font-medium mb-7">Let`s Discuss Your Project</h2>
                             <div className="flex flex-col gap-10 mb-8">
                                 <div className="flex gap-5">
@@ -524,27 +546,27 @@ export default function Home() {
                                 <iframe className='h-full w-full border-2' frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Eldoret,+Kenya&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                             </div>
                         </div>
-                        <form className="basis-7/12 bg-white rounded-xl p-9 border-2 border-fuchsia-200">
+                        <form className="lg:basis-7/12 basis-full bg-white rounded-xl p-9 border-2 border-fuchsia-200">
                             <h3 className="text-3xl font-medium mb-3">Got Ideas? I've got the skills. Let's team up.</h3>
                             <p className="text-lg mb-6">Tell us more about yourself and what you're got in mind.</p>
                             <div className="w-full flex flex-col gap-4">
-                                <div className="flex gap-4">
+                                <div className="flex gap-4 sm:flex-row flex-col">
                                     <div className="flex flex-1 flex-col gap-2">
                                         <label htmlFor="firstName" className="text-sm">First name</label>
                                         <input type="text" id="firstName" className="border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600"/>
                                     </div>
                                     <div className="flex flex-1 flex-col gap-2">
                                         <label htmlFor="yourEmail" className="text-sm">Your Email</label>
-                                        <input type="text" id="yourEmail" className="form-input"/>
+                                        <input type="text" id="yourEmail" className="border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600"/>
                                     </div>
                                 </div>
                                 <div className="flex flex-col gap-2">
                                     <label htmlFor="subject" className="text-sm">Subject</label>
-                                    <input type="text" id="subject" className="form-input "/>
+                                    <input type="text" id="subject" className="border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600 "/>
                                 </div>
                                 <div className="flex flex-col gap-2">
                                     <label htmlFor="message" className="text-sm">Your Message</label>
-                                    <textarea className="resize-none" name="message" rows={10} cols={10} id="message"></textarea>
+                                    <textarea className="resize-none w-full h-32 border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600" name="message" rows={10} cols={10} id="message"></textarea>
                                 </div>
                                 <button className="primary-btn w-full">Send Message</button>
                             </div>
