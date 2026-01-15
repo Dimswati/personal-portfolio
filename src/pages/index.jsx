@@ -51,29 +51,30 @@ export default function Home() {
                 <div className='flex flex-col justify-center items-center gap-8 antialiased mt-6 text-sm font-medium transition duration-300'>
                     <NavHashLink to='/#home' className='flex flex-col items-center gap-2'>
                         <BsHouseDoor size={18} className='hover:bg-fuchsia-200 box-content px-6 py-2 rounded-full' />
-                        <p>Home</p>
+                        <p>Inicio</p>
                     </NavHashLink>
                     <NavHashLink to='/#about' className='flex flex-col items-center gap-2'>
                         <BsPerson size={18} className='hover:bg-fuchsia-200 box-content px-6 py-2 rounded-full' />
-                        <p>About</p>
+                        <p>Sobre mí</p>
                     </NavHashLink>
                     <NavHashLink to='/#services' className='flex flex-col items-center gap-2'>
                         <BsBriefcase size={18} className='hover:bg-fuchsia-200 box-content px-6 py-2 rounded-full' />
-                        <p>Services</p>
+                        <p>Servicios</p>
                     </NavHashLink>
                     <NavHashLink to='/#portfolio' className='flex flex-col items-center gap-2'>
                         <BsColumns size={18} className='hover:bg-fuchsia-200 box-content px-6 py-2 rounded-full' />
-                        <p>Portfolio</p>
+                        <p>Portafolio</p>
                     </NavHashLink>
                     <NavHashLink to='/#testimonials' className='flex flex-col items-center gap-2'>
                         <MdOutlineReviews size={18} className='hover:bg-fuchsia-200 box-content px-6 py-2 rounded-full' />
-                        <p>ratings</p>
+                        <p>Testimonios</p>
                     </NavHashLink>
                     <NavHashLink to='/#contact' className='flex flex-col items-center gap-2'>
                         <BsTelephone size={18} className='hover:bg-fuchsia-200 box-content px-6 py-2 rounded-full' />
-                        <p>Contact</p>
+                        <p>Contacto</p>
                     </NavHashLink>
                 </div>
+
                 {/* <button className='absolute w-full bottom-0 flex justify-center'>
                 <BsCircleHalf size={16} className='pt-2  px-4 box-content bg-fuchsia-300 rounded-t-lg'/>
             </button> */}
