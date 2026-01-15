@@ -322,100 +322,107 @@ export default function Home() {
                 </section>
                 <section id='portfolio' className="bg-fuchsia-100">
                     <div className="container">
-                        <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">my services</h1>
+                        <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">
+                            Mis Servicios
+                        </h1>
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 transition-all duration-300 gap-6">
+                            {/* Servicio 1 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-1.jpg" alt="portfolioOne" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-1.jpg" alt="Diseño de Aplicaciones" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className=" font-medium mb-1">Mobile App Design</h5>
-                                        <p className="text-sm text-neutral-800">Mobile App, App Design</p>
+                                        <h5 className="font-medium mb-1">Diseño de Aplicaciones Móviles</h5>
+                                        <p className="text-sm text-neutral-800">Creación de interfaces atractivas y funcionales para apps móviles.</p>
                                     </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full
-                                ">
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Servicio 2 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-2.jpg" alt="portfolioOne" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-2.jpg" alt="Desarrollo Web" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className=" font-medium mb-1">Mobile App Design</h5>
-                                        <p className="text-sm text-neutral-800">Mobile App, App Design</p>
+                                        <h5 className="font-medium mb-1">Desarrollo Web</h5>
+                                        <p className="text-sm text-neutral-800">Sitios web modernos, rápidos y adaptativos para cualquier dispositivo.</p>
                                     </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full
-                                ">
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Servicio 3 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-3.jpg" alt="portfolioOne" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-3.jpg" alt="Consultoría Tecnológica" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className=" font-medium mb-1">Mobile App Design</h5>
-                                        <p className="text-sm text-neutral-800">Mobile App, App Design</p>
+                                        <h5 className="font-medium mb-1">Consultoría Tecnológica</h5>
+                                        <p className="text-sm text-neutral-800">Asesoramiento experto para optimizar procesos y soluciones digitales.</p>
                                     </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full
-                                ">
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Servicio 4 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-4.jpg" alt="portfolioOne" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-4.jpg" alt="Marketing Digital" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className=" font-medium mb-1">Mobile App Design</h5>
-                                        <p className="text-sm text-neutral-800">Mobile App, App Design</p>
+                                        <h5 className="font-medium mb-1">Marketing Digital</h5>
+                                        <p className="text-sm text-neutral-800">Estrategias de publicidad en redes y optimización de contenido online.</p>
                                     </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full
-                                ">
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Servicio 5 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-5.jpg" alt="portfolioOne" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-5.jpg" alt="Diseño Gráfico" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className=" font-medium mb-1">Mobile App Design</h5>
-                                        <p className="text-sm text-neutral-800">Mobile App, App Design</p>
+                                        <h5 className="font-medium mb-1">Diseño Gráfico</h5>
+                                        <p className="text-sm text-neutral-800">Creación de identidades visuales, logotipos y material de marca.</p>
                                     </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full
-                                ">
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Servicio 6 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-6.jpg" alt="portfolioOne" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-6.jpg" alt="Optimización SEO" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className=" font-medium mb-1">Mobile App Design</h5>
-                                        <p className="text-sm text-neutral-800">Mobile App, App Design</p>
+                                        <h5 className="font-medium mb-1">Optimización SEO</h5>
+                                        <p className="text-sm text-neutral-800">Mejora del posicionamiento web para aumentar visibilidad y tráfico orgánico.</p>
                                     </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full
-                                ">
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
