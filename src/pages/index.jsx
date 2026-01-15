@@ -350,7 +350,7 @@ export default function Home() {
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://via.placeholder.com/400x300?text=App+Finanzas" alt="App Finanzas" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-1.jpg" alt="App Finanzas" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
                                         <h5 className="font-medium mb-1">App Finanzas Personales</h5>
@@ -367,7 +367,7 @@ export default function Home() {
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://via.placeholder.com/400x300?text=Web+Restaurante" alt="Sitio Restaurante" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-2.jpg" alt="Sitio Restaurante" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
                                         <h5 className="font-medium mb-1">Sitio Web Restaurante</h5>
@@ -384,7 +384,7 @@ export default function Home() {
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://via.placeholder.com/400x300?text=E-commerce+Moda" alt="E-commerce Moda" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-3.jpg" alt="Tienda Online Moda" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
                                         <h5 className="font-medium mb-1">Tienda Online de Moda</h5>
@@ -401,7 +401,7 @@ export default function Home() {
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://via.placeholder.com/400x300?text=Blog+Tecnologia" alt="Blog Tecnología" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-4.jpg" alt="Blog Tecnología" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
                                         <h5 className="font-medium mb-1">Blog de Tecnología</h5>
@@ -418,7 +418,7 @@ export default function Home() {
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://via.placeholder.com/400x300?text=Portfolio+Fotografia" alt="Portfolio Fotografía" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-5.jpg" alt="Portfolio Fotografía" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
                                         <h5 className="font-medium mb-1">Portfolio de Fotografía</h5>
@@ -435,7 +435,7 @@ export default function Home() {
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://via.placeholder.com/400x300?text=App+Educativa" alt="App Educativa" className=" rounded-xl object-cover object-center" />
+                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-6.jpg" alt="App Educativa" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
                                         <h5 className="font-medium mb-1">Aplicación Educativa</h5>
@@ -480,70 +480,82 @@ export default function Home() {
                         >
                             <SwiperSlide>
                                 <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
-                                    <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
-                                    <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
-                                    <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                    <h4 className="text-2xl font-medium mb-2">Excelente soporte y resultados</h4>
+                                    <p className="text-base text-neutral-800 antialiased mb-6">
+                                        “Trabajar con este equipo ha sido una experiencia increíble. Cumplieron los plazos y superaron nuestras expectativas en cada proyecto.”
+                                    </p>
                                     <div className="text-base">
-                                        <h5 className="font-medium">Jane Kamau</h5>
-                                        <p className=" text-neutral-600">CEO at scaleAi</p>
+                                        <h5 className="font-medium">Carlos Méndez</h5>
+                                        <p className="text-neutral-600">CTO, Innovatech Solutions</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
-                                    <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
-                                    <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
-                                    <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                    <h4 className="text-2xl font-medium mb-2">Profesional y confiable</h4>
+                                    <p className="text-base text-neutral-800 antialiased mb-6">
+                                        “El nivel de profesionalismo y atención al detalle es excepcional. Recomiendo totalmente sus servicios.”
+                                    </p>
                                     <div className="text-base">
-                                        <h5 className="font-medium">Jane Kamau</h5>
-                                        <p className=" text-neutral-600">CEO at scaleAi</p>
+                                        <h5 className="font-medium">María López</h5>
+                                        <p className="text-neutral-600">Directora de Marketing, Creativa Global</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
-                                    <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
-                                    <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
-                                    <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                    <h4 className="text-2xl font-medium mb-2">Resultados medibles</h4>
+                                    <p className="text-base text-neutral-800 antialiased mb-6">
+                                        “Desde que comenzamos a trabajar con ellos, hemos visto un aumento del 40% en nuestra productividad y alcance digital.”
+                                    </p>
                                     <div className="text-base">
-                                        <h5 className="font-medium">Jane Kamau</h5>
-                                        <p className=" text-neutral-600">CEO at scaleAi</p>
+                                        <h5 className="font-medium">Andrés Ramírez</h5>
+                                        <p className="text-neutral-600">CEO, TechVision</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
-                                    <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
-                                    <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
-                                    <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                    <h4 className="text-2xl font-medium mb-2">Creatividad y dedicación</h4>
+                                    <p className="text-base text-neutral-800 antialiased mb-6">
+                                        “Su equipo combina creatividad y eficiencia, lo que hace que cada proyecto sea único y exitoso.”
+                                    </p>
                                     <div className="text-base">
-                                        <h5 className="font-medium">Jane Kamau</h5>
-                                        <p className=" text-neutral-600">CEO at scaleAi</p>
+                                        <h5 className="font-medium">Lucía Fernández</h5>
+                                        <p className="text-neutral-600">Fundadora, StartUp Labs</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
-                                    <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
-                                    <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
-                                    <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                    <h4 className="text-2xl font-medium mb-2">Comunicación impecable</h4>
+                                    <p className="text-base text-neutral-800 antialiased mb-6">
+                                        “Siempre estuvieron disponibles y atentos a nuestras necesidades, haciendo que el proceso fuera transparente y fluido.”
+                                    </p>
                                     <div className="text-base">
-                                        <h5 className="font-medium">Jane Kamau</h5>
-                                        <p className=" text-neutral-600">CEO at scaleAi</p>
+                                        <h5 className="font-medium">Diego Torres</h5>
+                                        <p className="text-neutral-600">Gerente de Operaciones, Soluciones Tech</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 <div className="p-8 border-2 border-fuchsia-200 rounded-xl text-center">
-                                    <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/avatar-1.jpg" className="w-24 h-24 rounded-full object-cover object-center outline outline-2 outline-fuchsia-200 outline-offset-2 mx-auto mb-6" />
-                                    <h4 className="text-2xl font-medium mb-2">Customers and interested parties engaged.</h4>
-                                    <p className="text-base text-neutral-800 antialiased mb-6">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                                    <h4 className="text-2xl font-medium mb-2">Superaron nuestras expectativas</h4>
+                                    <p className="text-base text-neutral-800 antialiased mb-6">
+                                        “El equipo no solo entregó a tiempo, sino que también aportó ideas innovadoras que mejoraron el proyecto significativamente.”
+                                    </p>
                                     <div className="text-base">
-                                        <h5 className="font-medium">Jane Kamau</h5>
-                                        <p className=" text-neutral-600">CEO at scaleAi</p>
+                                        <h5 className="font-medium">Sofía Gutiérrez</h5>
+                                        <p className="text-neutral-600">CEO, Creative Minds Agency</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                         </Swiper>
                     </div>
                 </section>
