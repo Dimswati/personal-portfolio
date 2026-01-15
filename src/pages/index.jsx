@@ -92,11 +92,11 @@ export default function Home() {
             <section id='about' className='bg-fuchsia-100'>
                 <div className="container flex lg:flex-row flex-col justify-center gap-16">
                     <div className="lg:basis-5/12 basis-full px-3">
-                        <h3 className="uppercase relative text-xl font-semibold antialiased tracking-widest text-neutral-900 before:absolute before:w-[8px] before:h-[8px] before:bg-fuchsia-400 before:top-[10px] before:left-[0px] pl-6 mb-6">about me</h3>
+                        <h3 className="uppercase relative text-xl font-semibold antialiased tracking-widest text-neutral-900 before:absolute before:w-[8px] before:h-[8px] before:bg-fuchsia-400 before:top-[10px] before:left-[0px] pl-6 mb-6">Sobre mí</h3>
                         <div className="pb-14 pr-6 border-b border-neutral-300 mb-12">
-                            <h4 className="uppercase text-base font-semibold text-neutral-900 mb-2">my name is paul mbatia</h4>
-                            <h2 className="uppercase text-3xl font-semibold text-neutral-800 mb-7">I AM AVAILABLE FOR UI UX DESIGN PROJECTS</h2>
-                            <p className="text-base text-neutral-700 mb-6">Born in 2000, AB type living in USA. We provide on-screen design for websites and apps, as well as front-end implementation. We will continue to pursue a wide range of expressions and better code by pursuing our “likes”.</p>
+                            <h4 className="uppercase text-base font-semibold text-neutral-900 mb-2">Mi nombre es Antonio García Cases</h4>
+                            <h2 className="uppercase text-3xl font-semibold text-neutral-800 mb-7">Estoy disponible para proyectos de diseño UI/UX</h2>
+                            <p className="text-base text-neutral-700 mb-6">Nacido en el año 2000, actualmente vivo en Estados Unidos. Me especializo en el diseño de interfaces para sitios web y aplicaciones, así como en la implementación front-end. Mi enfoque se basa en explorar continuamente nuevas formas de expresión y en crear mejor código, guiado por lo que realmente nos inspira y motiva.</p>
                             <div className="flex gap-6 items-center">
                                 <div className="flex gap-3">
                                     <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">5K</h1>
