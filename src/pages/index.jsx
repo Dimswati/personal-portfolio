@@ -453,7 +453,7 @@ export default function Home() {
 
                 <section id='testimonials' className="bg-fuchsia-100/20">
                     <div className="container">
-                        <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">testimonials</h1>
+                        <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">Testimonios</h1>
                         <Swiper
                             modules={[A11y]}
                             // slidesPerView={1}
@@ -563,71 +563,87 @@ export default function Home() {
                     <div className="container">
                         <div className="flex lg:flex-row flex-col gap-12">
                             <div className="lg:basis-5/12 basis-full">
-                                <h2 className="text-2xl font-medium mb-7">Let`s Discuss Your Project</h2>
+                                <h2 className="text-2xl font-medium mb-7">Hablemos de Tu Proyecto</h2>
                                 <div className="flex flex-col gap-10 mb-8">
+
+                                    {/* Chat */}
                                     <div className="flex gap-5">
                                         <div className="p-5 bg-fuchsia-950 text-fuchsia-200 rounded-full w-fit h-fit">
                                             <BsFillChatLeftDotsFill size={20} />
                                         </div>
                                         <div>
-                                            <h4 className="text-lg font-bold">Chat to us</h4>
-                                            <p className="text-base text-neutral-800">Our friendly team is there to help.</p>
+                                            <h4 className="text-lg font-bold">Chatea con nosotros</h4>
+                                            <p className="text-base text-neutral-800">Nuestro equipo amable está aquí para ayudarte.</p>
                                             <span className="text-base text-neutral-700 font-semibold cursor-pointer">info@domainname.com</span>
                                         </div>
                                     </div>
+
+                                    {/* Oficina */}
                                     <div className="flex gap-5">
                                         <div className="p-5 bg-fuchsia-950 text-fuchsia-200 rounded-full w-fit h-fit">
                                             <BsCompass size={20} />
                                         </div>
                                         <div>
-                                            <h4 className="text-lg font-bold">Chat to us</h4>
-                                            <p className="text-base text-neutral-800">Come say hello at our office HQ.</p>
-                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">Warnwe Park Streetperrine,
+                                            <h4 className="text-lg font-bold">Visítanos</h4>
+                                            <p className="text-base text-neutral-800">Ven a saludarnos a nuestra oficina principal.</p>
+                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">
+                                                Warnwe Park Streetperrine,
                                                 <br />
-                                                FL 33157 New York City
+                                                FL 33157 Ciudad de Nueva York
                                             </span>
                                         </div>
                                     </div>
+
+                                    {/* Teléfono */}
                                     <div className="flex gap-5">
                                         <div className="p-5 bg-fuchsia-950 text-fuchsia-200 rounded-full w-fit h-fit">
                                             <BsPhone size={20} />
                                         </div>
                                         <div>
-                                            <h4 className="text-lg font-bold">Chat to us</h4>
-                                            <p className="text-base text-neutral-800">Mon-Fri from 8am to 5pm.</p>
+                                            <h4 className="text-lg font-bold">Llámanos</h4>
+                                            <p className="text-base text-neutral-800">Lun-Vie de 8:00 a 17:00.</p>
                                             <span className="text-base text-neutral-700 font-semibold cursor-pointer">+01 (555) 000-0000</span>
                                         </div>
                                     </div>
+
                                 </div>
-                                <div className="w-full h-48 border-2 border-fuchsia-200 p-2 rounded-lg bg-white">
-                                    <iframe className='h-full w-full border-2' frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Eldoret,+Kenya&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                                </div>
+
                             </div>
+
                             <form className="lg:basis-7/12 basis-full bg-white rounded-xl p-9 border-2 border-fuchsia-200">
-                                <h3 className="text-3xl font-medium mb-3">Got Ideas? I've got the skills. Let's team up.</h3>
-                                <p className="text-lg mb-6">Tell us more about yourself and what you're got in mind.</p>
+                                <h3 className="text-3xl font-medium mb-3">¿Tienes ideas? Yo tengo las habilidades. Vamos a colaborar.</h3>
+                                <p className="text-lg mb-6">Cuéntanos más sobre ti y lo que tienes en mente.</p>
                                 <div className="w-full flex flex-col gap-4">
+
+                                    {/* Nombre y Email */}
                                     <div className="flex gap-4 sm:flex-row flex-col">
                                         <div className="flex flex-1 flex-col gap-2">
-                                            <label htmlFor="firstName" className="text-sm">First name</label>
+                                            <label htmlFor="firstName" className="text-sm">Nombre</label>
                                             <input type="text" id="firstName" className="border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600" />
                                         </div>
                                         <div className="flex flex-1 flex-col gap-2">
-                                            <label htmlFor="yourEmail" className="text-sm">Your Email</label>
+                                            <label htmlFor="yourEmail" className="text-sm">Correo Electrónico</label>
                                             <input type="text" id="yourEmail" className="border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600" />
                                         </div>
                                     </div>
+
+                                    {/* Asunto */}
                                     <div className="flex flex-col gap-2">
-                                        <label htmlFor="subject" className="text-sm">Subject</label>
+                                        <label htmlFor="subject" className="text-sm">Asunto</label>
                                         <input type="text" id="subject" className="border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600 " />
                                     </div>
+
+                                    {/* Mensaje */}
                                     <div className="flex flex-col gap-2">
-                                        <label htmlFor="message" className="text-sm">Your Message</label>
+                                        <label htmlFor="message" className="text-sm">Tu Mensaje</label>
                                         <textarea className="resize-none w-full h-32 border focus:border-fuchsia-600 border-fuchsia-200 rounded-lg caret-fuchsia-600" name="message" rows={10} cols={10} id="message"></textarea>
                                     </div>
-                                    <button className="primary-btn w-full">Send Message</button>
+
+                                    {/* Botón */}
+                                    <button className="primary-btn w-full">Enviar Mensaje</button>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </section>
