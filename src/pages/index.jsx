@@ -1,4 +1,6 @@
-import { BsPerson, BsHouseDoor, BsBriefcase, BsColumns, BsTelephone, BsDownload, BsFillBriefcaseFill, BsPhone, BsPlus, BsArrowUpRightCircle, BsFillChatLeftDotsFill, BsCompass } from "react-icons/bs"
+import { BsPerson, BsHouseDoor, BsBriefcase, BsColumns, BsTelephone, BsDownload, BsFillBriefcaseFill, BsPhone, BsPlus, BsArrowUpRightCircle, BsFillChatLeftDotsFill, BsCompass, BsLaptop } from "react-icons/bs"
+import { BsLaptop, BsPhone, BsBarChart, BsBrush, BsCode, BsSearch } from "react-icons/bs";
+
 import { FaSkype, FaEnvelope, FaWhatsapp, FaMap, FaFilePdf, FaReact, FaWordpress } from 'react-icons/fa'
 import { MdOutlineReviews } from 'react-icons/md'
 
