@@ -29,7 +29,7 @@ export default function Home() {
 
     useEffect(()=>{
         const typed = new Typed(typedRef.current, {
-            strings: ['Developer', 'Designer'],
+            strings: ['Desarrollador', 'Diseñador'],
             typeSpeed: 80,
             backSpeed: 60,
             loop: true
@@ -81,10 +81,10 @@ export default function Home() {
                 <div className="container flex mb:flex-row flex-col-reverse justify-center items-center gap-16">
                     <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/home-banner.jpg" className="aspect-square w-96 h-96 rounded-3xl" alt="" />
                     <div className="md:text-left text-center">
-                        <h5 className="text-xl mb-4 text-neutral-800 font-medium">👋 Hi, I`m</h5>
-                        <h1 className="mb:text-6xl text-4xl mb-4 font-bold text-neutral-800 antialiased">Paul <img className="inline w-16 h-16 object-cover rounded-full" src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/mask.jpg" alt="pauls profile" /> Mbatia</h1>
-                        <h2 className="text-2xl text-neutral-800 font-medium mb-6">I`m a <span ref={typedRef}></span></h2>
-                        <p className="text-base text-neutral-600 font-normal mb-8">We work with professionals and leaders who want to build careers that fulfil them intellectually, financially</p>
+                        <h5 className="text-xl mb-4 text-neutral-800 font-medium">👋 Hola, soy</h5>
+                        <h1 className="mb:text-6xl text-4xl mb-4 font-bold text-neutral-800 antialiased">Antonio García Cases</h1>
+                        <h2 className="text-2xl text-neutral-800 font-medium mb-6">Soy <span ref={typedRef}></span></h2>
+                        <p className="text-base text-neutral-600 font-normal mb-8">Trabajamos con un profesional o líder que quiera construir una carrera que lo llene intelectualmente y financieramente.</p>
                         <button className="primary-btn">Download cv <BsDownload className="inline"/></button>
                     </div>
                 </div>
@@ -99,12 +99,12 @@ export default function Home() {
                             <p className="text-base text-neutral-700 mb-6">Nacido en el año 2000, actualmente vivo en Estados Unidos. Me especializo en el diseño de interfaces para sitios web y aplicaciones, así como en la implementación front-end. Mi enfoque se basa en explorar continuamente nuevas formas de expresión y en crear mejor código, guiado por lo que realmente nos inspira y motiva.</p>
                             <div className="flex gap-6 items-center">
                                 <div className="flex gap-3">
-                                    <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">5K</h1>
-                                    <p>Projects <br/> Completed</p>
+                                    <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">50+</h1>
+                                    <p>Proyectos <br/> realizados</p>
                                 </div>
                                 <div className="flex gap-3">
-                                    <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">3K</h1>
-                                    <p>Satisfied <br/> Clients</p>
+                                    <h1 className="sm:text-5xl text-4xl font-semibold text-neutral-900">70+</h1>
+                                    <p>Clientes <br/> satisfechos</p>
                                 </div>
                             </div>
                         </div>
