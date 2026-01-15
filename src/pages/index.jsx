@@ -267,143 +267,92 @@ export default function Home() {
                 </section>
                 <section id='services' className="bg-fuchsia-100/20">
                     <div className="container">
-                        <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">my services</h1>
-                        <div className="grid lg:grid-cols-3 gap-6 md:grid-cols-2 grid-cols-1">
-                            <div className="service-card group">
-                                <div className="relative w-fit">
-                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
-                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
-                                </div>
-                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Web Design</h2>
-                                <p className="text-neutral-800  text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <div className="service-card group">
-                                <div className="relative w-fit">
-                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
-                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
-                                </div>
-                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Web Design</h2>
-                                <p className="text-neutral-800  text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <div className="service-card group">
-                                <div className="relative w-fit">
-                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
-                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
-                                </div>
-                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Web Design</h2>
-                                <p className="text-neutral-800  text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <div className="service-card group">
-                                <div className="relative w-fit">
-                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
-                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
-                                </div>
-                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Web Design</h2>
-                                <p className="text-neutral-800  text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <div className="service-card group">
-                                <div className="relative w-fit">
-                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
-                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
-                                </div>
-                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Web Design</h2>
-                                <p className="text-neutral-800  text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <div className="service-card group">
-                                <div className="relative w-fit">
-                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
-                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
-                                </div>
-                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Web Design</h2>
-                                <p className="text-neutral-800  text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id='portfolio' className="bg-fuchsia-100">
-                    <div className="container">
                         <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">
                             Mis Servicios
                         </h1>
-                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 transition-all duration-300 gap-6">
+                        <div className="grid lg:grid-cols-3 gap-6 md:grid-cols-2 grid-cols-1">
+
                             {/* Servicio 1 */}
-                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
-                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
-                                    <BsPlus size={24} />
+                            <div className="service-card group">
+                                <div className="relative w-fit">
+                                    <BsLaptop size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
+                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-1.jpg" alt="Diseño de Aplicaciones" className=" rounded-xl object-cover object-center" />
-                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
-                                    <div>
-                                        <h5 className="font-medium mb-1">Diseño de Aplicaciones Móviles</h5>
-                                        <p className="text-sm text-neutral-800">Creación de interfaces atractivas y funcionales para apps móviles.</p>
-                                    </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
-                                        <BsArrowUpRightCircle />
-                                    </div>
-                                </div>
+                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Diseño Web</h2>
+                                <p className="text-neutral-800 text-base">Creación de sitios web modernos, responsivos y atractivos que representan tu marca profesionalmente.</p>
                             </div>
 
                             {/* Servicio 2 */}
-                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
-                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
-                                    <BsPlus size={24} />
+                            <div className="service-card group">
+                                <div className="relative w-fit">
+                                    <BsPhone size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
+                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-2.jpg" alt="Desarrollo Web" className=" rounded-xl object-cover object-center" />
-                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
-                                    <div>
-                                        <h5 className="font-medium mb-1">Desarrollo Web</h5>
-                                        <p className="text-sm text-neutral-800">Sitios web modernos, rápidos y adaptativos para cualquier dispositivo.</p>
-                                    </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
-                                        <BsArrowUpRightCircle />
-                                    </div>
-                                </div>
+                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Aplicaciones Móviles</h2>
+                                <p className="text-neutral-800 text-base">Desarrollo de apps móviles intuitivas para Android y iOS con experiencia de usuario optimizada.</p>
                             </div>
 
                             {/* Servicio 3 */}
-                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
-                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
-                                    <BsPlus size={24} />
+                            <div className="service-card group">
+                                <div className="relative w-fit">
+                                    <BsBarChart size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
+                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-3.jpg" alt="Consultoría Tecnológica" className=" rounded-xl object-cover object-center" />
-                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
-                                    <div>
-                                        <h5 className="font-medium mb-1">Consultoría Tecnológica</h5>
-                                        <p className="text-sm text-neutral-800">Asesoramiento experto para optimizar procesos y soluciones digitales.</p>
-                                    </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
-                                        <BsArrowUpRightCircle />
-                                    </div>
-                                </div>
+                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Marketing Digital</h2>
+                                <p className="text-neutral-800 text-base">Estrategias de publicidad online, SEO y redes sociales para aumentar tu visibilidad y ventas.</p>
                             </div>
 
                             {/* Servicio 4 */}
-                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
-                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
-                                    <BsPlus size={24} />
+                            <div className="service-card group">
+                                <div className="relative w-fit">
+                                    <BsBrush size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
+                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-4.jpg" alt="Marketing Digital" className=" rounded-xl object-cover object-center" />
-                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
-                                    <div>
-                                        <h5 className="font-medium mb-1">Marketing Digital</h5>
-                                        <p className="text-sm text-neutral-800">Estrategias de publicidad en redes y optimización de contenido online.</p>
-                                    </div>
-                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
-                                        <BsArrowUpRightCircle />
-                                    </div>
-                                </div>
+                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Diseño Gráfico</h2>
+                                <p className="text-neutral-800 text-base">Creación de logotipos, branding y material visual para que tu marca destaque.</p>
                             </div>
 
                             {/* Servicio 5 */}
+                            <div className="service-card group">
+                                <div className="relative w-fit">
+                                    <BsCode size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
+                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
+                                </div>
+                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Desarrollo de Software</h2>
+                                <p className="text-neutral-800 text-base">Soluciones de software personalizadas para automatizar procesos y mejorar la productividad.</p>
+                            </div>
+
+                            {/* Servicio 6 */}
+                            <div className="service-card group">
+                                <div className="relative w-fit">
+                                    <BsSearch size={32} className="box-content relative z-50 p-4 bg-fuchsia-300 rounded-xl text-neutral-800 mb-9" />
+                                    <span className="absolute inset-0 bg-fuchsia-200 rounded-xl z-30 rotate-12 origin-bottom-right group-hover:rotate-0 transition-all ease-in duration-300"></span>
+                                </div>
+                                <h2 className="text-xl font-medium text-neutral-900 mb-2">Optimización SEO</h2>
+                                <p className="text-neutral-800 text-base">Mejora del posicionamiento web para atraer tráfico orgánico y aumentar la visibilidad en buscadores.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id='portfolio' className="bg-fuchsia-100">
+                    <div className="container">
+                        <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">
+                            Mis Proyectos
+                        </h1>
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 transition-all duration-300 gap-6">
+
+                            {/* Proyecto 1 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-5.jpg" alt="Diseño Gráfico" className=" rounded-xl object-cover object-center" />
+                                <img src="https://via.placeholder.com/400x300?text=App+Finanzas" alt="App Finanzas" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className="font-medium mb-1">Diseño Gráfico</h5>
-                                        <p className="text-sm text-neutral-800">Creación de identidades visuales, logotipos y material de marca.</p>
+                                        <h5 className="font-medium mb-1">App Finanzas Personales</h5>
+                                        <p className="text-sm text-neutral-800">Aplicación móvil para gestionar gastos y presupuestos de usuarios.</p>
                                     </div>
                                     <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
@@ -411,25 +360,95 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            {/* Servicio 6 */}
+                            {/* Proyecto 2 */}
                             <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
                                 <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
                                     <BsPlus size={24} />
                                 </div>
-                                <img src="https://shtheme.com/demosd/tapsiwp/wp-content/themes/tapsi/assets/img/project-6.jpg" alt="Optimización SEO" className=" rounded-xl object-cover object-center" />
+                                <img src="https://via.placeholder.com/400x300?text=Web+Restaurante" alt="Sitio Restaurante" className=" rounded-xl object-cover object-center" />
                                 <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
                                     <div>
-                                        <h5 className="font-medium mb-1">Optimización SEO</h5>
-                                        <p className="text-sm text-neutral-800">Mejora del posicionamiento web para aumentar visibilidad y tráfico orgánico.</p>
+                                        <h5 className="font-medium mb-1">Sitio Web Restaurante</h5>
+                                        <p className="text-sm text-neutral-800">Página web moderna con reservas online y menú interactivo.</p>
                                     </div>
                                     <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
                                         <BsArrowUpRightCircle />
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Proyecto 3 */}
+                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
+                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
+                                    <BsPlus size={24} />
+                                </div>
+                                <img src="https://via.placeholder.com/400x300?text=E-commerce+Moda" alt="E-commerce Moda" className=" rounded-xl object-cover object-center" />
+                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
+                                    <div>
+                                        <h5 className="font-medium mb-1">Tienda Online de Moda</h5>
+                                        <p className="text-sm text-neutral-800">E-commerce con catálogo de productos, carrito y pasarela de pago segura.</p>
+                                    </div>
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
+                                        <BsArrowUpRightCircle />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Proyecto 4 */}
+                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
+                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
+                                    <BsPlus size={24} />
+                                </div>
+                                <img src="https://via.placeholder.com/400x300?text=Blog+Tecnologia" alt="Blog Tecnología" className=" rounded-xl object-cover object-center" />
+                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
+                                    <div>
+                                        <h5 className="font-medium mb-1">Blog de Tecnología</h5>
+                                        <p className="text-sm text-neutral-800">Plataforma de contenido con artículos, tutoriales y noticias tecnológicas.</p>
+                                    </div>
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
+                                        <BsArrowUpRightCircle />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Proyecto 5 */}
+                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
+                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
+                                    <BsPlus size={24} />
+                                </div>
+                                <img src="https://via.placeholder.com/400x300?text=Portfolio+Fotografia" alt="Portfolio Fotografía" className=" rounded-xl object-cover object-center" />
+                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
+                                    <div>
+                                        <h5 className="font-medium mb-1">Portfolio de Fotografía</h5>
+                                        <p className="text-sm text-neutral-800">Colección de trabajos fotográficos profesionales con galería interactiva.</p>
+                                    </div>
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
+                                        <BsArrowUpRightCircle />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Proyecto 6 */}
+                            <div className="relative rounded-xl bg-white border-2 border-fuchsia-200 p-2.5 transition-all duration-300 group overflow-hidden">
+                                <div className="p-2 bg-fuchsia-300 absolute top-5 right-5 rounded-full">
+                                    <BsPlus size={24} />
+                                </div>
+                                <img src="https://via.placeholder.com/400x300?text=App+Educativa" alt="App Educativa" className=" rounded-xl object-cover object-center" />
+                                <div className="absolute bottom-0 right-0 left-0 mx-5 p-5 bg-fuchsia-100 rounded-xl flex justify-between transition-all ease-linear duration-300 opacity-0 group-hover:opacity-100 group-hover:-translate-y-5">
+                                    <div>
+                                        <h5 className="font-medium mb-1">Aplicación Educativa</h5>
+                                        <p className="text-sm text-neutral-800">App para aprendizaje interactivo con lecciones, quizzes y seguimiento de progreso.</p>
+                                    </div>
+                                    <div className="p-1.5 bg-fuchsia-300 h-fit rounded-full">
+                                        <BsArrowUpRightCircle />
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
+
                 <section id='testimonials' className="bg-fuchsia-100/20">
                     <div className="container">
                         <h1 className="relative uppercase font-semibold text-4xl antialiased text-black before:absolute before:w-14 before:h-[3px] before:-bottom-3 before:bg-fuchsia-300 mb-14">testimonials</h1>
