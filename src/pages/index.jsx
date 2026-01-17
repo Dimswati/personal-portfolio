@@ -603,6 +603,8 @@ export default function Home() {
                                             <h4 className="text-lg font-bold">Llámanos</h4>
                                             <p className="text-base text-neutral-800">Lun-Vie de 8:00 a 17:00.</p>
                                             <span className="text-base text-neutral-700 font-semibold cursor-pointer">+34613915905</span>
+                                            </br>
+                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">+447782276409</span>
                                         </div>
                                     </div>
 
