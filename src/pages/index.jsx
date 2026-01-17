@@ -588,9 +588,8 @@ export default function Home() {
                                             <h4 className="text-lg font-bold">Visítanos</h4>
                                             <p className="text-base text-neutral-800">Ven a saludarnos a nuestra oficina principal.</p>
                                             <span className="text-base text-neutral-700 font-semibold cursor-pointer">
-                                                Warnwe Park Streetperrine,
-                                                <br />
-                                                FL 33157 Ciudad de Nueva York
+                                                Concordia Street, 18, Benejuzar
+                                                03390 Benejuzar
                                             </span>
                                         </div>
                                     </div>
@@ -603,7 +602,7 @@ export default function Home() {
                                         <div>
                                             <h4 className="text-lg font-bold">Llámanos</h4>
                                             <p className="text-base text-neutral-800">Lun-Vie de 8:00 a 17:00.</p>
-                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">+01 (555) 000-0000</span>
+                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">+34613915905</span>
                                         </div>
                                     </div>
 
