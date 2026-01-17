@@ -575,7 +575,7 @@ export default function Home() {
                                         <div>
                                             <h4 className="text-lg font-bold">Chatea con nosotros</h4>
                                             <p className="text-base text-neutral-800">Nuestro equipo amable está aquí para ayudarte.</p>
-                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">info@domainname.com</span>
+                                            <span className="text-base text-neutral-700 font-semibold cursor-pointer">--coming soon--</span>
                                         </div>
                                     </div>
 
